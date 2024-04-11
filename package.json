@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "cd ../client && npm install &&  npm run build && cd ../server && rm -r public && mkdir public && cd ../client && mv ./build/* ../server/public",
-    "start": "tsc -b && nodemon dist/index.js"
+    "start": "tsc -b && node dist/index.js"
   },
   "keywords": [],
   "author": "",
